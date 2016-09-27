@@ -1,0 +1,30 @@
+.footer-administrador{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0px 50px 10px 0px;
+    float: right;
+}
+
+.btn-footer-administrador{
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.btn-loading{
+    width: 50%;
+}
+
+/*Comportamiento Responsive */
+
+/* Dispositivos Extra Chicos */
+@media screen and (max-width: 480px) {
+
+    .btn-guardar{
+        padding: 5px;
+        font-size: 1.2em;
+        right: 5px;
+        bottom: 5px;
+    }
+}

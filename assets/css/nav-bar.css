@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#myNav {
+    background-color: white;
+    border-bottom: none;
+    height: 70px;
+}
+
+/* Banner */
+
+.img-banner{
+    width: 100px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+/* Compotamiento Responsive */
+
+/* Dispositivos Medios */
+@media (max-width: 992px) {  }
+
+/* Dispositivos Chicos */
+@media screen and (max-width: 767px) {
+    #myNav {
+        height: 30px;
+    }
+    
+    .navbar {
+        min-height: 30px;
+    }
+
+    .img-banner{
+        width: 50px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+}

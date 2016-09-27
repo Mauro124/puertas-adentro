@@ -1,0 +1,16 @@
+.txt-panel-administrador{
+    line-height: 80px;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+/* Dispositivos Extra Chicos */
+@media screen and (max-width: 480px) {
+    .txt-panel-administrador{
+        line-height: 80px;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+}

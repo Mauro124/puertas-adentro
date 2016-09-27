@@ -1,0 +1,56 @@
+.footer{
+    width: 100%;
+    background-color: #3D4753;
+    height: 99.01px;
+    padding: 30px;
+}
+
+/* Condiciones y términos */
+
+.ctnr-terminos{
+    font-family: sans-serif;
+    color: #F4F4F4;
+    font-size: 0.8em;
+}
+
+.ctnr-terminos span{
+    font-size: 0.9em;
+}
+
+.ctnr-terminos a{
+    color: #F4F4F4;
+    text-decoration: underline;
+}
+
+/* Social Media */
+
+.ctnr-social{
+    text-align: right;
+    padding-right: 50px;
+}
+
+.ctnr-social img{
+    margin-right: 5px;
+    width: 21.687;
+    height: 21.687;
+}
+
+/*Comportamiento Responsive */
+
+/* Dispositivos Chicos */
+@media screen and (max-width: 480px) {
+    .footer{
+        padding: 10px 10px;
+    }
+}
+
+/* Dispositivos Extra Chicos */
+@media screen and (max-width: 240px) {
+    .footer{
+        padding: 4px 1px;
+    }
+
+    .ctnr-social {
+        padding-right: 10px;
+    }
+}

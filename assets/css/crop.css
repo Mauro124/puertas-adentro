@@ -1,0 +1,54 @@
+.btn-elegir-logo ,.img-cropeada, .imageBox{
+    display: block;
+    margin: auto;
+}
+
+.imageBox{
+    position: relative;
+    height: 185px;
+    width: 293px;
+    border:1px solid #aaa;
+    background: #fff;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    cursor:move;
+    border-radius: 10px;
+}
+
+.imageBox .thumbBox, .imageBox .spinner{
+    position: absolute;
+}
+
+.imageBox .thumbBox{
+    top: 27%;
+    left: 17%;
+    width: 293px;
+    height: 185px;
+    margin-top: -50px;
+    margin-left: -50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(102, 102, 102);
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background: none repeat scroll 0% 0% transparent;
+}
+
+.imageBox .spinner{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 185px;
+    background: rgba(0,0,0,0.7);
+}
+
+.img-cropeada{
+    background-image: url(/assets/css/img/logos/nuevo-logo-destacado.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    height: 185px;
+    width: 293px;
+    box-shadow: 0px 0px 10px grey; 
+}
